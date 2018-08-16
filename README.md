@@ -1,9 +1,11 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# React-components-by-gatsby
+  Collect some base components of React
+  The project was built on the basis of Gatsbyjs
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+# About Gatsby
+  Build websites with React
+  https://next.gatsbyjs.org/
+  gatsby-starter-blog `https://github.com/gatsbyjs/gatsby-starter-blog`
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-## Running in development
-`gatsby develop`
+# Running in development
+  `gatsby develop`
