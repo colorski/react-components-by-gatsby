@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
@@ -13,7 +13,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
-
+console.log(this.props)
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -38,6 +38,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+
         <Bio />
 
         <ul
