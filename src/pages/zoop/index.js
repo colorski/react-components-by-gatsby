@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React from "react";
+import Link from "gatsby-link";
 
-export default class Test extends Component {
-  render (){
-    return <div>123</div>
-  }
-}
+export default () => (
+  <div>
+    <p>Hello world from my second Gatsby page</p>
+    <Link to="/">back home</Link>
+  </div>
+);
